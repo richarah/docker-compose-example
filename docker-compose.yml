@@ -1,0 +1,12 @@
+version: "2"
+services:
+  img1:
+    image: foo
+    build:
+      context: .
+      dockerfile: foo.Dockerfile
+  img2:
+    image: bar
+    build:
+      context: .
+      dockerfile: bar.Dockerfile
